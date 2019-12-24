@@ -11,7 +11,7 @@ import java.sql.*;
 public class EmployeesDB {
     // FIELDS
     private static final String DB_NAME = "employeesDb.db"; // Name of database
-    private static final String CONNECTION_STRING = "jdbc:sqlite:C:\\Users\\srjkm\\Desktop\\" + DB_NAME;
+    private static final String CONNECTION_STRING = "jdbc:sqlite:/*Input Custom Path*/" + DB_NAME;
     ////////////////////////////////////EMPLOYEE QUERIES AND SQL STATEMENTS/////////////////////////////////////////////
     private static final String QUERY_EMPLOYEES_TABLE = "SELECT * FROM employees";
     private static final String ADD_EMPLOYEES_SQL = "INSERT INTO employees (socialSecurityNumber, firstName, lastName, birthday, " +
